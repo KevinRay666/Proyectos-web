@@ -1,0 +1,287 @@
+
+/* Globales*/
+
+:root{
+    --naranja: #ff8236;
+    --primario: #4c1f67;
+    --secundario: #714b84;
+    --primarioClaro: #b9a3be;
+    --blanco: #ffffff;
+
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+} 
+
+footer{
+    background-color: var(--naranja);
+}
+
+footer p{
+    color: var(--blanco);
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Tipo grafica*/
+h1{
+    text-align: center;
+    font-size: 7rem;
+    color: var(--naranja);
+}
+
+h2{
+    font-size: 2.8rem;
+}
+
+h3{
+    font-size: 1.8rem;
+}
+
+body{
+    font-size: 16px;
+}
+
+
+/*CSS de inicio de sesion*/
+
+.body-inicio-sesion{
+    background-color: var(--primario);
+}
+
+.main-inicio-sesion{
+    background-color: var(--secundario);
+}
+
+.contenedor2{
+    margin-left: 0px;
+    padding-right: 0px;
+}
+
+.header-inicio-sesion{
+    
+    text-align: center;
+    background-color: var(--primario);
+}
+
+.header-inicio-sesion h1{
+    color: #ff8236;
+}
+
+.contenedor{
+    max-width: 80rem;
+    margin: 0 auto;
+    
+}
+
+footer{
+    padding: 0.10rem;
+    text-align: center;
+    background-color: var(--naranja);
+}
+
+/*------*/
+
+/*--Formulario--*/
+.formulario-inicio-sesion{
+    padding-top: 30%;
+    padding-bottom: 50%;
+}
+
+.producto{
+    background-color: var(--primarioOscuro);
+    padding: 1rem;
+}
+
+.formulario-inicio-sesion h2{
+    color: var(--blanco);
+    text-align: center;
+    background-color: var(--naranja);
+    margin-bottom: 0%;
+    padding: 2rem;
+}
+
+.formulario-inicio-sesion fieldset {
+    background-color: #b9a3be;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: var(--primario);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+  }
+
+  .formulario-inicio-sesion h1{
+    background-color: #ff8236;
+  }
+  
+  .campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+/*CSS de  Panel alumnos*/
+
+
+
+.navegacion-panel-alumnos{
+    background-color: var(--naranja);
+    display: flex;
+    justify-content: center;
+}
+
+.navegacion__enlace{
+    padding: 1rem;
+    padding-right: 2rem;
+    text-align: justify;
+    color: var(--primario);
+    font-size: 4rem;
+    border-color: var(--primario);
+}
+
+
+
+
+.navegacion__enlace--activo,
+.navegacion__enlace:hover{
+    color: var(--naranja);
+    background-color: var(--secundario);
+}
+
+
+.body-panel-alumnos{
+    background-color: var(--primario);
+}
+
+.main-panel-alumnos{
+    background-color: var(--blanco);
+}
+
+.datos-panel-alumnos{
+    text-align: center;
+    background-color: var(--primarioClaro);
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.datos-panel-alumnos p{
+    font-size: 5rem;
+    text-align: left;
+}
+
+/* Consultar datos de alumno*/
+
+.navegacion-consultas-alumnos{
+    background-color: var(--naranja);
+    display: flex;
+    justify-content: center;
+}
+
+.navegacion__enlace{
+    padding: 1rem;
+    padding-right: 2rem;
+    text-align: justify;
+    color: var(--primario);
+    font-size: 4rem;
+}
+
+
+
+
+.navegacion__enlace--activo,
+.navegacion__enlace:hover{
+    color: var(--naranja);
+    background-color: var(--secundario);
+}
+
+
+.body-consultas-alumnos{
+    background-color: var(--primario);
+}
+
+.main-consultas-alumnos{
+    background-color: var(--blanco);
+}
+
+.datos-consultas-alumnos{
+    text-align: center;
+    background-color: var(--primarioClaro);
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.datos-consultas-alumnos p{
+    font-size: 5rem;
+    text-align: left;
+}
+
+/* Panel de Maestros */
+
+.navegacion-consultas-alumnos{
+    background-color: var(--naranja);
+    display: flex;
+    justify-content: center;
+}
+
+
+.body-panel-maestros{
+    background-color: var(--primario);
+}
+
+.main-panel-maestros{
+    background-color: var(--primarioClaro);
+    margin: 10rem 10rem 10rem 10rem;
+}
+
+.datos-consultas-alumnos{
+    text-align: center;
+    background-color: var(--primarioClaro);
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.datos-consultas-alumnos p{
+    font-size: 5rem;
+    text-align: left;
+}
+
